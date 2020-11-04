@@ -1,6 +1,6 @@
 before_script:
-    - apt-get update
-    - apt-get -y install nuget
+    - 'apt-get update'
+    - 'apt-get -y install nuget msbuild'
     - 'nuget restore test.sln'
 
 build_job:
