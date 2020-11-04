@@ -1,12 +1,11 @@
 image: mcr.microsoft.com/dotnet/sdk:5.0
 
 before_script:
-    #- 'apt-get update'
-    - 'dotnet build test.sln'
+    - 'dotnet --info'
 
 build_job:
   stage: build
   
   script:
-    - 'dotnet --info'
+    - 'dotnet build test.sln'
     - 'ls'
