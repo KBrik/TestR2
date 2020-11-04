@@ -7,6 +7,7 @@ namespace test
         public static void Main(string[] args)
         {
             Console.WriteLine("TAM");
+            Console.WriteLine("I TYT");
         }
     }
 }
