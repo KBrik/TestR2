@@ -1,14 +1,14 @@
-image: mcr.microsoft.com/dotnet/core/samples
-
 before_script:
     - 'apt-get update'
-    - 'apt-get -y install nuget msbuild'
-    - 'nuget update -self'
-    - 'nuget restore test.sln'
+    #- 'apt-get -y install nuget msbuild'
+    #- 'nuget update -self'
+    #- 'nuget restore test.sln'
+    - 'apt-get install dotnet'
 
 build_job:
   stage: build
   
   script:
-    - 'msbuild test.sln'
+    #- 'msbuild test.sln'
+    - 'dotnet build test.sln'
     - 'ls'
