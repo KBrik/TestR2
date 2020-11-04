@@ -5,6 +5,7 @@ before_script:
     #- 'apt-get -y install nuget msbuild'
     #- 'nuget update -self'
     #- 'nuget restore test.sln'
+    - 'dotnet --info'
 
 build_job:
   stage: build

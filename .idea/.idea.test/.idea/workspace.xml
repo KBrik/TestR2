@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -21,7 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c840a6bf-5e4c-4b97-81da-c7709065d3b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/test/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +41,14 @@
     </option>
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
     <configuration name="test" type="DotNetProject" factoryName=".NET Project">
@@ -80,5 +84,31 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604527910012">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.401.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1604527910012" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1604527975010">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/-1366.401.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1604527975010" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1604527975010">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.center/-1366.401.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1604527975010" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1604527975010">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.left/-1366.401.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1604527975010" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1604527975010">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.right/-1366.401.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1604527975010" />
+    <state x="344" y="116" key="SettingsEditor" timestamp="1604527946395">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="344" y="116" key="SettingsEditor/-1366.401.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1604527946395" />
   </component>
 </project>
