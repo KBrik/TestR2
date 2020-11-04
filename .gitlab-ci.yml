@@ -1,10 +1,10 @@
+image: dotnet/core/sdk
+
 before_script:
-    - 'lsb_release -a'
     - 'apt-get update'
     #- 'apt-get -y install nuget msbuild'
     #- 'nuget update -self'
     #- 'nuget restore test.sln'
-    - 'apt-get install dotnet'
 
 build_job:
   stage: build
