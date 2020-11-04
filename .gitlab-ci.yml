@@ -8,4 +8,3 @@ build_job:
   
   script:
     - 'dotnet build test.sln'
-    - 'ls'
