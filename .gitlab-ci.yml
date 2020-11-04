@@ -1,4 +1,4 @@
-image: dotnet/core/sdk
+image: mcr.microsoft.com/dotnet/core/sdk:3.1
 
 before_script:
     - 'apt-get update'
