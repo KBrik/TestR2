@@ -1,6 +1,6 @@
 before_script:
     - apt-get update
-    - apt-get install nuget
+    - apt-get -y install nuget
 
 build_job:
   stage: build
