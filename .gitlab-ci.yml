@@ -1,5 +1,5 @@
 before_script:
-    lsb_release -a
+    - 'lsb_release -a'
     - 'apt-get update'
     #- 'apt-get -y install nuget msbuild'
     #- 'nuget update -self'
