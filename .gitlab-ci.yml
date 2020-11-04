@@ -1,16 +1,12 @@
-image: mcr.microsoft.com/dotnet/framework/sdk:4.8
+image: mcr.microsoft.com/dotnet/sdk:5.0
 
 before_script:
-    - 'apt-get update'
-    #- 'apt-get -y install nuget msbuild'
-    #- 'nuget update -self'
-    #- 'nuget restore test.sln'
-    - 'dotnet --info'
+    #- 'apt-get update'
+    - 'dotnet build test.sln'
 
 build_job:
   stage: build
   
   script:
-    #- 'msbuild test.sln'
-    - 'dotnet build test.sln'
+    - 'dotnet --info'
     - 'ls'
