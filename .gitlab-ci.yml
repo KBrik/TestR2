@@ -1,10 +1,10 @@
 before_script:
     - apt-get update
     - apt-get -y install nuget
+    - 'nuget restore test.sln'
 
 build_job:
   stage: build
   
   script:
-    nuget restore
-    #msbuild test.sln
+    - 'msbuild test.sln /t:Clean,ReBuild /p:Configuration=Debug;Platform="Any CPU"'
